@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="季節食材與土地示意圖">
+  <defs>
+    <linearGradient id="d3bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#191512"/>
+      <stop offset="1" stop-color="#0f0c0a"/>
+    </linearGradient>
+    <radialGradient id="d3glow" cx="0.22" cy="0.8" r="0.6">
+      <stop offset="0" stop-color="#7c9a5a" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#7c9a5a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="d3a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0a355"/>
+      <stop offset="1" stop-color="#a85a3a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#d3bg)"/>
+  <rect width="640" height="400" fill="url(#d3glow)"/>
+
+  <!-- 泥土層紋 -->
+  <g fill="none" stroke="#241d18" stroke-width="2">
+    <path d="M0 316c80-22 140 14 224-6s150-30 236-8 180 6 180 6v92H0Z"/>
+    <path d="M0 344c90-18 150 12 232-4s156-22 240-4 168 8 168 8v56H0Z"/>
+  </g>
+
+  <!-- 葉子 -->
+  <g fill="#6f8f52" opacity=".9">
+    <path d="M120 300c-30-8-46-34-44-64 30 6 46 32 44 64Z"/>
+    <path d="M176 292c-4-34 14-60 42-72 8 30-10 58-42 72Z"/>
+    <path d="M232 302c-24-20-28-52-12-78 26 18 30 50 12 78Z"/>
+  </g>
+  <g stroke="#8aa969" stroke-width="2" fill="none" opacity=".6">
+    <path d="M120 300 84 258"/>
+    <path d="M176 292 212 238"/>
+    <path d="M232 302 224 244"/>
+  </g>
+
+  <!-- 根莖 / 蔬果 -->
+  <g>
+    <circle cx="330" cy="286" r="26" fill="url(#d3a)"/>
+    <path d="M330 262c0-12 6-20 16-24-2 14-8 22-16 24Z" fill="#7c9a5a"/>
+    <circle cx="392" cy="298" r="18" fill="#b9613c"/>
+    <circle cx="440" cy="288" r="22" fill="url(#d3a)"/>
+    <path d="M440 268c2-12 10-19 20-21-2 12-10 19-20 21Z" fill="#7c9a5a"/>
+  </g>
+
+  <!-- 海鮮與香草線條 -->
+  <g fill="none" stroke="#e8d9c4" stroke-opacity=".28" stroke-width="2.5" stroke-linecap="round">
+    <path d="M76 150c40-26 92-26 132 0"/>
+    <path d="M76 122c40-26 92-26 132 0"/>
+    <path d="M452 150c34-22 78-22 112 0"/>
+  </g>
+
+  <!-- 盤緣 -->
+  <circle cx="330" cy="286" r="86" fill="none" stroke="#2b241e" stroke-width="2"/>
+</svg>

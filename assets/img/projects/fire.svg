@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="爐火炭烤示意圖">
+  <defs>
+    <linearGradient id="d2bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#120f0d"/>
+      <stop offset="1" stop-color="#1d1512"/>
+    </linearGradient>
+    <radialGradient id="d2fire" cx="0.5" cy="0.72" r="0.55">
+      <stop offset="0" stop-color="#f0a94b" stop-opacity=".85"/>
+      <stop offset=".55" stop-color="#c9603f" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#c9603f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="d2flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#c9603f"/>
+      <stop offset="1" stop-color="#f7cf82"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#d2bg)"/>
+  <rect width="640" height="400" fill="url(#d2fire)"/>
+
+  <!-- 炭床 -->
+  <g fill="#241c17">
+    <rect x="86" y="252" width="120" height="34" rx="17"/>
+    <rect x="146" y="272" width="128" height="34" rx="17"/>
+    <rect x="212" y="244" width="118" height="34" rx="17"/>
+    <rect x="262" y="276" width="132" height="34" rx="17"/>
+    <rect x="332" y="250" width="120" height="34" rx="17"/>
+    <rect x="392" y="274" width="122" height="34" rx="17"/>
+  </g>
+  <g fill="#c9603f" opacity=".35">
+    <rect x="96" y="258" width="100" height="8" rx="4"/>
+    <rect x="222" y="250" width="98" height="8" rx="4"/>
+    <rect x="342" y="256" width="100" height="8" rx="4"/>
+  </g>
+
+  <!-- 火焰 -->
+  <g fill="url(#d2flame)" opacity=".9">
+    <path d="M228 250c0-22 12-34 18-52 4 14 14 20 20 32 5 10 6 20 6 20Z"/>
+    <path d="M340 252c0-20 10-30 16-46 4 12 12 18 18 28 4 8 5 18 5 18Z"/>
+    <path d="M418 250c0-16 8-24 13-36 3 10 10 14 15 22 3 6 4 14 4 14Z"/>
+  </g>
+
+  <!-- 烤架 -->
+  <g stroke="#4a3f36" stroke-width="5" stroke-linecap="round">
+    <line x1="72" y1="226" x2="568" y2="226"/>
+    <line x1="72" y1="252" x2="568" y2="252"/>
+  </g>
+
+  <!-- 肉排 -->
+  <g>
+    <rect x="150" y="196" width="104" height="26" rx="12" fill="#6b3b28"/>
+    <rect x="150" y="196" width="104" height="9" rx="4.5" fill="#8d5132"/>
+    <rect x="286" y="188" width="112" height="28" rx="13" fill="#6b3b28"/>
+    <rect x="286" y="188" width="112" height="10" rx="5" fill="#8d5132"/>
+    <rect x="430" y="196" width="100" height="26" rx="12" fill="#6b3b28"/>
+    <rect x="430" y="196" width="100" height="9" rx="4.5" fill="#8d5132"/>
+  </g>
+
+  <!-- 火星 -->
+  <g fill="#f7cf82" opacity=".8">
+    <circle cx="262" cy="150" r="2.5"/>
+    <circle cx="356" cy="118" r="2"/>
+    <circle cx="430" cy="164" r="2.2"/>
+    <circle cx="196" cy="128" r="1.8"/>
+    <circle cx="316" cy="82" r="1.6"/>
+  </g>
+</svg>

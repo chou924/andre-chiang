@@ -1,0 +1,20 @@
+# 依賴 / 建置產物（本站為純靜態網站，通常不會有）
+node_modules/
+dist/
+build/
+.vendor/
+
+# 編輯器 / 系統
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# 環境變數
+.env
+.env.local
+
+# 打包或部署用（不要把憑證與 token 傳上去）
+*.log
+.cache/

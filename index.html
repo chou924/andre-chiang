@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>江振誠 André Chiang｜主廚 · 全球50大最佳餐廳</title>
+
+  <!-- ==== SEO / 社群分享 ==== -->
+  <meta name="description" content="江振誠（André Chiang），台灣出身的法式主廚與餐飲創業者。Restaurant ANDRÉ 全球50最佳餐廳第14名、亞洲50最佳第2名，並以「八角哲學」推動台灣季節食材的創新料理。" />
+  <meta name="author" content="江振誠 André Chiang" />
+  <meta name="theme-color" content="#0c0b0a" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#fdfbf8" media="(prefers-color-scheme: light)" />
+  <link rel="canonical" href="https://YOUR_USERNAME.github.io/YOUR_REPO/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="江振誠 André Chiang" />
+  <meta property="og:title" content="江振誠 André Chiang｜主廚 · 全球50大最佳餐廳" />
+  <meta property="og:description" content="台灣出身的法式主廚與餐飲創業者。以「八角哲學」推動台灣季節食材的創新料理。" />
+  <meta property="og:url" content="https://YOUR_USERNAME.github.io/YOUR_REPO/" />
+  <meta property="og:image" content="https://YOUR_USERNAME.github.io/YOUR_REPO/assets/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- ==== Favicon ==== -->
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+  <!-- ==== 字型（載入失敗會自動退回系統字型） ==== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- 主題設定：在畫面繪製前套用，避免深／淺色閃爍 -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('site-theme');
+        var light = window.matchMedia('(prefers-color-scheme: light)').matches;
+        document.documentElement.setAttribute('data-theme', saved || (light ? 'light' : 'dark'));
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "江振誠",
+    "alternateName": "André Chiang",
+    "jobTitle": "法式主廚、餐飲創業者",
+    "birthDate": "1976-04-27",
+    "birthPlace": "台灣台北市士林區",
+    "url": "https://YOUR_USERNAME.github.io/YOUR_REPO/",
+    "email": "mailto:YOUR_EMAIL@example.com",
+    "alumniOf": "新北市立淡水高級商工職業學校",
+    "knownFor": ["法式料理", "創新季節料理", "炭火燒烤", "餐飲人才培育"],
+    "award": [
+      "聖沛黎洛全球50最佳餐廳 第14名（2017，Restaurant ANDRÉ）",
+      "聖沛黎洛亞洲50最佳餐廳 第2名（2017，Restaurant ANDRÉ）",
+      "新加坡米其林指南二星（2016，Restaurant ANDRÉ）",
+      "台北米其林指南二星（2019–2022，RAW）"
+    ],
+    "sameAs": [
+      "https://www.instagram.com/YOUR_HANDLE/",
+      "https://www.facebook.com/YOUR_HANDLE",
+      "https://www.youtube.com/@YOUR_HANDLE"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+
+  <!-- ======================= SVG 圖示集 ======================= -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Zm0 .5 9 6 9-6"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.25-1.5 1.55-1.5h1.65V3.6c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.45-4 4.1v2.3H7.6V13h2.7v8h3.2Z"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" d="M21.6 7.2a2.5 2.5 0 0 0-1.76-1.77C18.25 5 12 5 12 5s-6.25 0-7.84.43A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12c0 1.6.13 3.2.4 4.8a2.5 2.5 0 0 0 1.76 1.77C5.75 19 12 19 12 19s6.25 0 7.84-.43a2.5 2.5 0 0 0 1.76-1.77c.27-1.6.4-3.2.4-4.8 0-1.6-.13-3.2-.4-4.8ZM10 15V9l5.2 3L10 15Z"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M14 4h6v6M20 4l-8.5 8.5M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" d="M12 19V5m-6 6 6-6 6 6"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path stroke="currentColor" stroke-width="1.9" stroke-linecap="round" d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M18.8 5.2l-1.6 1.6M6.8 17.2l-1.6 1.6"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path fill="currentColor" d="M20.5 14.3A8.6 8.6 0 0 1 9.7 3.5a8.6 8.6 0 1 0 10.8 10.8Z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="1.9" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path stroke="currentColor" stroke-width="1.9" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6" fill="currentColor"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 8h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Zm5 0V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="m4 12.5 5 5L20 6.5"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M6 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2.6 2.9 5.9 6.5.95-4.7 4.6 1.1 6.5L12 17.5l-5.8 3.05 1.1-6.5-4.7-4.6 6.5-.95L12 2.6Z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v15H6.5A2.5 2.5 0 0 0 4 20.5V5.5Zm0 15A2.5 2.5 0 0 1 6.5 18H19v3H6.5A2.5 2.5 0 0 1 4 20.5Z"/></symbol>
+    <symbol id="i-pot" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3.5 10h17v3a7 7 0 0 1-7 7h-3a7 7 0 0 1-7-7v-3ZM8 10V7.5M16 10V7.5M8 7.5h8M2 12.5h1.5M20.5 12.5H22"/></symbol>
+    <symbol id="i-fire" viewBox="0 0 24 24"><path fill="currentColor" d="M12.9 2c.4 2.4-.5 4-1.9 5.4C9.6 9 8.2 10.3 8.2 12.6c0 1.3.5 2.3 1.4 2.9-.2-1.6.5-3 2-4.2-.2 2.4 1.2 3.2 1.9 4.6.5.9.6 1.8.4 2.7 1.5-.7 2.5-2.2 2.5-4 0-2.4-1.6-4-2.6-5.6C12.7 7 12.5 4.6 12.9 2ZM12 22c-3.6 0-6.5-2.7-6.5-6.2 0-.6.1-1.2.3-1.8-.4 2.5 1 4.2 2.6 4.6-.5-2.2.3-4 1.7-5.4.1 1.7 1 2.4 1.6 3.6.4.8.6 1.6.5 2.5.9-.5 1.4-1.3 1.6-2.3.9 1 1.4 2.3 1.4 3.7 0 2.8-2.4 5.3-5.7 5.3Z"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path fill="currentColor" d="M20 3c-9 0-14 4-14 10a6 6 0 0 0 2 4.5L4 21l1 1 4-4A6 6 0 0 0 13 20c6 0 7-8 7-17ZM6.5 16.5C6 12 10 6.5 17 5.5 14 9.5 10 12 6.5 16.5Z"/></symbol>
+  </svg>
+
+  <!-- ======================= 導覽列 ======================= -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="#home">
+        <span class="nav__mark">A</span>
+        <span class="nav__name">André Chiang</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="主要導覽">
+        <a href="#about" class="nav__link">關於</a>
+        <a href="#craft" class="nav__link">料理</a>
+        <a href="#restaurants" class="nav__link">餐廳</a>
+        <a href="#honors" class="nav__link">榮譽</a>
+        <a href="#contact" class="nav__link">聯絡</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="切換深色／淺色主題" title="切換主題">
+          <svg class="icon icon--sun" aria-hidden="true"><use href="#i-sun"/></svg>
+          <svg class="icon icon--moon" aria-hidden="true"><use href="#i-moon"/></svg>
+        </button>
+        <button class="icon-btn nav__burger" id="navBurger" type="button" aria-label="開啟選單" aria-expanded="false" aria-controls="navLinks">
+          <svg class="icon icon--menu" aria-hidden="true"><use href="#i-menu"/></svg>
+          <svg class="icon icon--close" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="nav__progress" id="navProgress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    <!-- ======================= Hero ======================= -->
+    <section class="hero section" id="home">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="blob blob--a"></div>
+        <div class="blob blob--b"></div>
+        <div class="grid-mask"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <p class="hero__eyebrow reveal">
+          <span class="dot"></span>全球50最佳餐廳 · 亞洲50最佳餐廳
+        </p>
+
+        <h1 class="hero__title reveal" style="--d:.06s">
+          我是 <span class="grad">江振誠</span>
+        </h1>
+
+        <p class="hero__roles reveal" style="--d:.12s">
+          <span class="sr-only">主廚、八角哲學、創新季節料理、爐火炭烤</span>
+          <span class="typed" id="typed" data-words="主廚、八角哲學、創新季節料理、爐火炭烤" aria-hidden="true"></span><span class="caret" aria-hidden="true"></span>
+        </p>
+
+        <p class="hero__desc reveal" style="--d:.18s">
+          20 歲走進亞都麗緻的巴黎廳，30 年後仍在找食材最誠實的樣子。
+          從新加坡 Restaurant ANDRÉ 的米其林二星，到台北 RAW 用台灣季節食材說故事 ——
+          一道菜背後，是對土地、火候與人的耐心。
+        </p>
+
+        <div class="hero__cta reveal" style="--d:.24s">
+          <a class="btn btn--primary" href="#restaurants">
+            探索餐廳
+            <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="#contact">合作與預約</a>
+        </div>
+
+        <ul class="hero__social reveal" style="--d:.3s" aria-label="社群連結">
+          <li><a href="https://www.instagram.com/YOUR_HANDLE/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
+          <li><a href="https://www.facebook.com/YOUR_HANDLE" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg></a></li>
+          <li><a href="https://www.youtube.com/@YOUR_HANDLE" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg class="icon" aria-hidden="true"><use href="#i-youtube"/></svg></a></li>
+          <li><a href="mailto:YOUR_EMAIL@example.com" aria-label="Email"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+        </ul>
+      </div>
+
+      <a class="hero__scroll" href="#about" aria-label="往下捲動">
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg>
+      </a>
+    </section>
+
+    <!-- ======================= 關於 ======================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__label">關於我</p>
+          <h2 class="section__title">初心，與八角哲學</h2>
+        </div>
+
+        <div class="about">
+          <div class="about__col reveal">
+            <div class="about__media">
+              <figure class="about__frame">
+                <img src="assets/img/chef-andre.jpg" alt="主廚江振誠受訪照片" width="877" height="1080" />
+              </figure>
+              <div class="about__badge">
+                <strong>30</strong>
+                <span>年廚藝</span>
+              </div>
+            </div>
+            <p class="about__credit">
+              照片：江振誠受訪畫面，來源
+              <a href="https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E6%8C%AF%E8%AA%A0.jpg" target="_blank" rel="noopener noreferrer nofollow">PDIS／Wikimedia Commons</a>
+              （<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer nofollow">CC BY 3.0</a>）
+            </p>
+          </div>
+
+          <div class="about__body">
+            <p class="reveal" style="--d:.05s">
+              我是江振誠（André Chiang），1976 年出生於台北士林，淡水商工餐飲管理科出身。
+              學生時代被派進亞都麗緻的巴黎廳，從刷鍋、備料開始學起 ——
+              <strong>「初心」</strong>那本書，就是從那個階段開始寫的。
+            </p>
+            <p class="reveal" style="--d:.1s">
+              1997 年到西華飯店法國餐廳，擔任 Pourcel 兄弟的首席助理；
+              2001 年接手法國米其林三星 Le Jardin des Sens 的執行主廚。
+              之後落腳新加坡，創立 Restaurant ANDRÉ、Burnt Ends、Bincho，再回台開 RAW。
+              2011 年起推動 <strong>Octaphilosophy「八角哲學」</strong>，
+              希望把對食材的敬意，變成每個年輕廚師都能帶走的東西。
+            </p>
+
+            <ul class="facts reveal" style="--d:.15s">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>出生於台北市士林區，現往返新加坡與台灣</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-briefcase"/></svg><span>1887 by André 主廚（新加坡萊佛士，2026 米其林二星）</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-star"/></svg><span>米其林二星 × 3：Restaurant ANDRÉ・RAW・1887 by André</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span>國語、台語、粵語、英語、法語</span></li>
+            </ul>
+
+            <div class="about__actions reveal" style="--d:.2s">
+              <a class="btn btn--primary btn--sm" href="#contact">聯繫合作</a>
+              <a class="btn btn--ghost btn--sm" href="assets/Andre-Chiang-Resume.pdf" data-resume download>
+                <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg>
+                下載簡介 PDF
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 數據統計 -->
+        <ul class="stats" id="stats">
+          <li class="stat reveal"><span class="stat__num" data-count="30" data-suffix=" 年">0</span><span class="stat__label">餐飲生涯</span></li>
+          <li class="stat reveal" style="--d:.06s"><span class="stat__num" data-count="5" data-suffix=" 次">0</span><span class="stat__label">全球50最佳餐廳上榜</span></li>
+          <li class="stat reveal" style="--d:.12s"><span class="stat__num" data-count="3" data-suffix=" 本">0</span><span class="stat__label">餐飲著作</span></li>
+          <li class="stat reveal" style="--d:.18s"><span class="stat__num" data-count="4" data-suffix=" 城">0</span><span class="stat__label">台北・新加坡・巴黎・成都</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ======================= 料理 ======================= -->
+    <section class="section section--soft" id="craft">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__label">料理</p>
+          <h2 class="section__title">我怎麼做菜</h2>
+          <p class="section__desc">技法是根基，食材是主角，剩下的交給火候、溫度與直覺。</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <div class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-pot"/></svg></div>
+            <h3 class="card__title">法式料理根基</h3>
+            <p class="card__text">從 Pourcel 兄弟的餐桌到米其林三星的廚房，經典法式的分寸感與盤面邏輯，是所有嘗試的底子。</p>
+            <ul class="tags">
+              <li>古典法式</li><li> sauces 與醬汁</li><li>甜點</li>
+              <li>肉類熟成</li><li>在地食材</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" style="--d:.06s">
+            <div class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-leaf"/></svg></div>
+            <h3 class="card__title">八角哲學 · 季節創新</h3>
+            <p class="card__text">讓台灣的季節說話：葉菜、根莖、海鮮與發酵，用新的結構講老土地的故事。</p>
+            <ul class="tags">
+              <li>Octaphilosophy</li><li>創新季節料理</li><li>發酵熟成</li>
+              <li>Bistronomy</li><li>永續餐桌</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" style="--d:.12s">
+            <div class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-fire"/></svg></div>
+            <h3 class="card__title">爐火炭烤與亞洲風味</h3>
+            <p class="card__text">聖賽巴斯蒂安式炭烤、備長炭火直燒，以及用Technique 重新書寫的川菜與粵菜。</p>
+            <ul class="tags">
+              <li>炭火直燒</li><li>備長備炭</li><li>煙燻熟成</li>
+              <li>川菜創新</li><li>亞洲風味</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= 餐廳 ======================= -->
+    <section class="section" id="restaurants">
+      <div class="container">
+        <div class="section__head section__head--row reveal">
+          <div>
+            <p class="section__label">餐廳</p>
+            <h2 class="section__title">這些年端上桌的地方</h2>
+          </div>
+          <a class="link-more" href="#contact">
+            合作提案
+            <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+          </a>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="餐廳所在城市篩選">
+          <button class="chip is-active" data-filter="all" type="button">全部</button>
+          <button class="chip" data-filter="singapore" type="button">新加坡</button>
+          <button class="chip" data-filter="taipei" type="button">台北</button>
+          <button class="chip" data-filter="paris" type="button">巴黎</button>
+          <button class="chip" data-filter="chengdu" type="button">成都</button>
+        </div>
+
+        <div class="grid grid--3" id="projectGrid">
+          <article class="project reveal" data-category="singapore">
+            <a class="project__media" href="#" aria-label="Restaurant ANDRÉ，查看介紹">
+              <img src="assets/img/projects/dish.svg" alt="Restaurant ANDRÉ 餐桌示意" loading="lazy" width="640" height="400" />
+            </a>
+            <div class="project__body">
+              <h3 class="project__title">Restaurant ANDRÉ</h3>
+              <p class="project__text">新加坡 · 2011–2018。八角哲學的起點，米其林二星，連續五年登上全球50最佳餐廳。</p>
+              <ul class="tags tags--sm"><li>法式</li><li>米其林二星</li><li>全球50最佳第14</li></ul>
+              <div class="project__links">
+                <span class="is-static">亞洲50最佳 第2名</span>
+                <span class="is-static">2017</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" style="--d:.06s" data-category="taipei">
+            <a class="project__media" href="#" aria-label="RAW 台北，查看介紹">
+              <img src="assets/img/projects/garden.svg" alt="RAW 台北季節食材示意" loading="lazy" width="640" height="400" />
+            </a>
+            <div class="project__body">
+              <h3 class="project__title">RAW</h3>
+              <p class="project__text">台北大直 · 2014–2024。以台灣季節食材為靈感的創新料理，米其林二星、台灣最佳餐廳。</p>
+              <ul class="tags tags--sm"><li>創新季節</li><li>米其林二星</li><li>亞洲50最佳</li></ul>
+              <div class="project__links">
+                <span class="is-static">2024 轉型廚藝學院</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" style="--d:.12s" data-category="singapore">
+            <a class="project__media" href="#" aria-label="Burnt Ends，查看介紹">
+              <img src="assets/img/projects/fire.svg" alt="Burnt Ends 炭烤示意" loading="lazy" width="640" height="400" />
+            </a>
+            <div class="project__body">
+              <h3 class="project__title">Burnt Ends</h3>
+              <p class="project__text">新加坡 · 2013 至今。聖賽巴斯蒂安式爐火炭烤，亞洲50最佳最高第10名。</p>
+              <ul class="tags tags--sm"><li>炭火燒烤</li><li>亞洲50最佳第10</li></ul>
+              <div class="project__links">
+                <span class="is-static">全球100最佳第53</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="paris">
+            <a class="project__media" href="#" aria-label="Porte 12 巴黎，查看介紹">
+              <img src="assets/img/projects/dish.svg" alt="Porte 12 巴黎餐桌示意" loading="lazy" width="640" height="400" />
+            </a>
+            <div class="project__body">
+              <h3 class="project__title">Porte 12</h3>
+              <p class="project__text">法國巴黎十區 · 2014 至今。Bistronomy 創新季節料理，2015 Le Fooding 最佳餐廳。</p>
+              <ul class="tags tags--sm"><li>Bistronomy</li><li>季節料理</li></ul>
+              <div class="project__links">
+                <span class="is-static">Le Fooding 最佳餐廳</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" style="--d:.06s" data-category="singapore">
+            <a class="project__media" href="#" aria-label="1887 by André，查看介紹">
+              <img src="assets/img/projects/garden.svg" alt="1887 by André 餐廳示意" loading="lazy" width="640" height="400" />
+            </a>
+            <div class="project__body">
+              <h3 class="project__title">1887 by André</h3>
+              <p class="project__text">新加坡萊佛士 · 2026。帶 RAW 團隊重返獅城，開業五個月即摘米其林二星。</p>
+              <ul class="tags tags--sm"><li>Fine Dining</li><li>米其林二星</li></ul>
+              <div class="project__links">
+                <span class="is-static">2026 米其林二星</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" style="--d:.12s" data-category="singapore">
+            <a class="project__media" href="#" aria-label="Bincho 備長，查看介紹">
+              <img src="assets/img/projects/fire.svg" alt="Bincho 備長炭火示意" loading="lazy" width="640" height="400" />
+            </a>
+            <div class="project__body">
+              <h3 class="project__title">Bincho 備長</h3>
+              <p class="project__text">新加坡 · 2013 至今。源自大阪的日式炭火燒烤，備長炭直火造就焦香。</p>
+              <ul class="tags tags--sm"><li>日式燒烤</li><li>備長炭</li></ul>
+              <div class="project__links">
+                <span class="is-static">大阪風炭火</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="chengdu">
+            <a class="project__media" href="#" aria-label="The Bridge 廊橋，查看介紹">
+              <img src="assets/img/projects/garden.svg" alt="The Bridge 廊橋川菜示意" loading="lazy" width="640" height="400" />
+            </a>
+            <div class="project__body">
+              <h3 class="project__title">The Bridge 廊橋</h3>
+              <p class="project__text">成都 · 2018。用主廚的視角重寫川菜：保留豐富味覺，添上雅趣與層次。</p>
+              <ul class="tags tags--sm"><li>川菜</li><li>在地風味</li></ul>
+              <div class="project__links">
+                <span class="is-static">2018 開幕</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" style="--d:.06s" data-category="singapore">
+            <a class="project__media" href="#" aria-label="JAAN par André，查看介紹">
+              <img src="assets/img/projects/dish.svg" alt="JAAN par André 餐桌示意" loading="lazy" width="640" height="400" />
+            </a>
+            <div class="project__body">
+              <h3 class="project__title">JAAN par André</h3>
+              <p class="project__text">瑞士史丹福酒店法國餐廳 · 2009–2011。掌舵一年半即登上全球50最佳餐廳。</p>
+              <ul class="tags tags--sm"><li>法式</li><li>飯店餐廳</li></ul>
+              <div class="project__links">
+                <span class="is-static">全球50最佳</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" style="--d:.12s" data-category="taipei">
+            <a class="project__media" href="#" aria-label="教學與講座，查看介紹">
+              <img src="assets/img/projects/fire.svg" alt="廚藝教學與講座示意" loading="lazy" width="640" height="400" />
+            </a>
+            <div class="project__body">
+              <h3 class="project__title">廚藝學院與教學</h3>
+              <p class="project__text">輔仁大學駐校廚藝大師、亞洲大學與崑山科大講座教授，RAW 結束後推動廚藝學院。</p>
+              <ul class="tags tags--sm"><li>人才培育</li><li>講座教授</li></ul>
+              <div class="project__links">
+                <span class="is-static">已帶回數百位學員</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= 榮譽 ======================= -->
+    <section class="section section--soft" id="honors">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__label">榮譽</p>
+          <h2 class="section__title">這些年發生的事</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <p class="tl-date">2006 – 2007</p>
+            <h3 class="tl-title">Discovery 與《時代》</h3>
+            <p class="tl-text">Discovery 頻道選為「亞洲10大最佳青年主廚」；2007 年《時代》雜誌兩度稱讚為「印度洋上最偉大的廚師」，並獲選全球最佳150位名廚。</p>
+          </li>
+          <li class="tl-item reveal" style="--d:.06s">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <p class="tl-date">2016</p>
+            <h3 class="tl-title">首位米其林二星的台灣創辦人</h3>
+            <p class="tl-text">Restaurant ANDRÉ 獲新加坡米其林指南二星，為台灣首位獲評米其林二星的餐廳創辦人；同年獲選中華民國十大傑出青年。</p>
+          </li>
+          <li class="tl-item reveal" style="--d:.12s">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <p class="tl-date">2017</p>
+            <h3 class="tl-title">全球50最佳餐廳第14名</h3>
+            <p class="tl-text">Restaurant ANDRÉ 登上聖沛黎洛全球50最佳餐廳第14名，亞洲50最佳餐廳第2名；同年 RAW 也進入亞洲50最佳名單，獲台灣最佳餐廳。</p>
+          </li>
+          <li class="tl-item reveal" style="--d:.18s">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <p class="tl-date">2018</p>
+            <h3 class="tl-title">亞洲50最佳餐廳終身成就獎</h3>
+            <p class="tl-text">獲頒亞洲50大餐廳獎項終身成就獎，為第一位獲此殊榮的台灣人；同年 RAW 獲台北米其林指南一星，隔年升上二星。</p>
+          </li>
+          <li class="tl-item reveal" style="--d:.24s">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <p class="tl-date">2024 – 2026</p>
+            <h3 class="tl-title">卸下 RAW，重返獅城</h3>
+            <p class="tl-text">2024 年 RAW 結束營業並規劃轉型廚藝學院；2026 年重返新加坡萊佛士酒店打造「1887 by André」，八月獲米其林二星。</p>
+          </li>
+        </ol>
+
+        <div class="section__head reveal" style="margin-top:clamp(48px,6vw,80px)">
+          <p class="section__label">著作</p>
+          <h2 class="section__title">書裡的答案</h2>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <div class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg></div>
+            <h3 class="card__title">《初心》</h3>
+            <p class="card__text">2013 年，平安文化。回望從亞都巴黎廳開始的第一段廚師人生。</p>
+          </article>
+          <article class="card reveal" style="--d:.06s">
+            <div class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg></div>
+            <h3 class="card__title">《八角哲學》</h3>
+            <p class="card__text">2016 年，天下文化。Octaphilosophy 的完整理念與實踐紀錄。</p>
+          </article>
+          <article class="card reveal" style="--d:.12s">
+            <div class="card__icon"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg></div>
+            <h3 class="card__title">《工作美學》</h3>
+            <p class="card__text">2023 年，天下文化。三十年後再談一次認真做事的理由。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= 聯絡 ======================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__label">聯絡</p>
+          <h2 class="section__title">合作、預約，或一場晚宴</h2>
+          <p class="section__desc">品牌合作、餐飲顧問、廚藝講座與媒體採訪歡迎來信，通常一天內回覆。</p>
+        </div>
+
+        <div class="contact">
+          <form class="form reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">你的名字</label>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="王小明" required />
+              <p class="field__error" data-error-for="name"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+              <p class="field__error" data-error-for="email"></p>
+            </div>
+
+            <div class="field">
+              <label for="message">想說什麼</label>
+              <textarea id="message" name="message" rows="5" placeholder="簡單描述你的需求——合作型式、時間、餐廳名稱…" required></textarea>
+              <p class="field__error" data-error-for="message"></p>
+            </div>
+
+            <!-- 純前端站台沒有後端，預設用 mailto 寄信。
+                 若想用表單服務，把 <form> 加上 action="https://formspree.io/f/xxxx" method="POST"
+                 並移除 assets/js/main.js 裡的 mailto 分支即可。 -->
+            <button class="btn btn--primary btn--block" type="submit">
+              寄出訊息
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+            </button>
+
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+
+          <aside class="contact__side reveal" style="--d:.08s">
+            <div class="info">
+              <h3 class="info__title">其他聯絡方式</h3>
+              <ul class="info__list">
+                <li>
+                  <span class="info__icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></span>
+                  <div>
+                    <p class="info__label">Email</p>
+                    <a class="info__value" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
+                  </div>
+                  <button class="copy-btn" type="button" data-copy="YOUR_EMAIL@example.com" aria-label="複製 Email">
+                    <svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg>
+                  </button>
+                </li>
+                <li>
+                  <span class="info__icon"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></span>
+                  <div>
+                    <p class="info__label">Instagram</p>
+                    <a class="info__value" href="https://www.instagram.com/YOUR_HANDLE/" target="_blank" rel="noopener noreferrer">@YOUR_HANDLE</a>
+                  </div>
+                </li>
+                <li>
+                  <span class="info__icon"><svg class="icon" aria-hidden="true"><use href="#i-youtube"/></svg></span>
+                  <div>
+                    <p class="info__label">YouTube</p>
+                    <a class="info__value" href="https://www.youtube.com/@YOUR_HANDLE" target="_blank" rel="noopener noreferrer">Octaphilosophy</a>
+                  </div>
+                </li>
+                <li>
+                  <span class="info__icon"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span>
+                  <div>
+                    <p class="info__label">服務範圍</p>
+                    <p class="info__value">新加坡・台北・巴黎（UTC+8）</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================= 頁尾 ======================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__mark">A</span>
+        <div>
+          <p class="footer__name">江振誠 André Chiang</p>
+          <p class="footer__tag">主廚・餐飲創業者・Octaphilosophy 八角哲學</p>
+        </div>
+      </div>
+
+      <nav class="footer__nav" aria-label="頁尾導覽">
+        <a href="#about">關於</a>
+        <a href="#craft">料理</a>
+        <a href="#restaurants">餐廳</a>
+        <a href="#honors">榮譽</a>
+        <a href="#contact">聯絡</a>
+      </nav>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> 江振誠 André Chiang.</p>
+      <p>Built with vanilla HTML, CSS &amp; JS — 部署於 GitHub Pages。</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" type="button" aria-label="回到頂端">
+    <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg>
+  </button>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="餐盤俯視示意圖">
+  <defs>
+    <linearGradient id="d1bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1815"/>
+      <stop offset="1" stop-color="#100d0b"/>
+    </linearGradient>
+    <radialGradient id="d1glow" cx="0.72" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#e0a355" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#e0a355" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="d1a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8b169"/>
+      <stop offset="1" stop-color="#c9603f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#d1bg)"/>
+  <rect width="640" height="400" fill="url(#d1glow)"/>
+
+  <!-- 餐巾 -->
+  <rect x="54" y="228" width="150" height="128" rx="10" fill="#241e19" transform="rotate(-8 129 292)"/>
+
+  <!-- 主餐盤 -->
+  <circle cx="330" cy="200" r="140" fill="#1f1a16" stroke="#332b24" stroke-width="2"/>
+  <circle cx="330" cy="200" r="112" fill="none" stroke="#2c2520" stroke-width="1.5"/>
+  <circle cx="330" cy="200" r="112" fill="url(#d1a)" opacity=".07"/>
+
+  <!-- 擺盤 -->
+  <ellipse cx="330" cy="216" rx="62" ry="40" fill="url(#d1a)" opacity=".85"/>
+  <ellipse cx="330" cy="216" rx="62" ry="40" fill="none" stroke="#ffd9a0" stroke-opacity=".25"/>
+  <g fill="#f6dcae" opacity=".9">
+    <circle cx="292" cy="196" r="5"/>
+    <circle cx="356" cy="190" r="4"/>
+    <circle cx="340" cy="240" r="4.5"/>
+    <circle cx="308" cy="246" r="3.5"/>
+  </g>
+  <path d="M262 168c14-10 30-12 44-6" fill="none" stroke="#f6dcae" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/>
+  <path d="M392 250c12 2 22 8 28 18" fill="none" stroke="#f6dcae" stroke-opacity=".35" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 醬汁點缀 -->
+  <circle cx="452" cy="146" r="9" fill="#c9603f" opacity=".9"/>
+  <circle cx="474" cy="168" r="5" fill="#e0a355" opacity=".8"/>
+
+  <!-- 刀叉 -->
+  <g fill="#3a322b">
+    <rect x="512" y="120" width="6" height="130" rx="3"/>
+    <rect x="526" y="120" width="6" height="130" rx="3"/>
+    <rect x="540" y="120" width="6" height="130" rx="3"/>
+  </g>
+  <rect x="96" y="112" width="8" height="96" rx="4" fill="#3a322b"/>
+  <ellipse cx="100" cy="98" rx="18" ry="14" fill="#3a322b"/>
+</svg>
